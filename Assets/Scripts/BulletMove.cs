@@ -7,7 +7,7 @@ public class BulletMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GetComponent<Rigidbody>().AddForce(gun.forward * 400);
+		GetComponent<Rigidbody>().AddForce(gun.forward * 2000);
 	}
 
 }
