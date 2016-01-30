@@ -6,10 +6,11 @@ public class Move : MonoBehaviour {
     public Rigidbody myBody;
     public float speedAddition;
     public float maxSpeed;
-    public float speedToSwitchWalk;
+    public float speedToSwitchWalk = 30;
     private float timeSinceWalkSwitch;
     public SpriteRenderer walk1;
     public SpriteRenderer walk2;
+    public SpriteRenderer stand;
     // Use this for initialization
     void Start () {
 	
@@ -54,8 +55,10 @@ public class Move : MonoBehaviour {
         }
         if(speed > speedToSwitchWalk  && timeSinceWalkSwitch > .25)
         {
+
+            stand.enabled = false;
             //toggle walk
-            if(walk1.enabled)
+            if (walk1.enabled)
             {
                 walk2.enabled = true;
                 walk1.enabled = false;
@@ -67,6 +70,16 @@ public class Move : MonoBehaviour {
                 walk2.enabled = false;
             }
             timeSinceWalkSwitch = 0;
+        }
+        else
+        {
+            if (timeSinceWalkSwitch > .25)
+            {
+                walk1.enabled = false;
+                walk2.enabled = false;
+                stand.enabled = true;
+                timeSinceWalkSwitch = 0;
+            }
         }
     }
 }
