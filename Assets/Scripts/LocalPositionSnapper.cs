@@ -13,6 +13,6 @@ public class LocalPositionSnapper : MonoBehaviour
             this.tfm = this.GetComponent<Transform>();
         }
 
-        this.tfm.localPosition = new Vector3(Mathf.Round(this.tfm.localPosition.x), Mathf.Round(this.tfm.localPosition.y), Mathf.Round(this.tfm.localPosition.z));
+        //this.tfm.localPosition = new Vector3(Mathf.Round(this.tfm.localPosition.x), Mathf.Round(this.tfm.localPosition.y), Mathf.Round(this.tfm.localPosition.z));
 	}
 }

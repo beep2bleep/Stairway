@@ -16,6 +16,7 @@ public class WorldScaler : MonoBehaviour
             this.tfm = this.GetComponent<Transform>();
         }
 
-        this.tfm.localScale = new Vector3(1, 1 / Mathf.Cos(this.gameCameraTfm.eulerAngles.x * Mathf.Deg2Rad), 1 / Mathf.Sin(this.gameCameraTfm.eulerAngles.x * Mathf.Deg2Rad));
+        //Commented out was throwing error probably won't use
+        //this.tfm.localScale = new Vector3(1, 1 / Mathf.Cos(this.gameCameraTfm.eulerAngles.x * Mathf.Deg2Rad), 1 / Mathf.Sin(this.gameCameraTfm.eulerAngles.x * Mathf.Deg2Rad));
 	}
 }
