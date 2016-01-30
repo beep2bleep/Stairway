@@ -6,6 +6,7 @@ public class ImpactDamage : MonoBehaviour
     private bool _hit = false;
     public float Damage = 20;
     public float Radius = 1;
+    public GameObject parent;
 
     //Character _player;
 
@@ -44,6 +45,8 @@ public class ImpactDamage : MonoBehaviour
             GetComponent<AudioSource>().PlayOneShot(oneHitSound);
             //Do damange
             col.gameObject.SendMessage("ApplyDamage", 8.0f);
+            Destroy(parent);
+
         }
     }
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 17f41deb6cedb0947864340d19e1a509
-timeCreated: 1454190322
+timeCreated: 1454196979
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -106,7 +106,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -286,12 +286,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: 0}
-        - {x: -4, y: -6}
-        - {x: 9, y: -6}
-        - {x: 16, y: -5}
-        - {x: 16, y: 3}
-        - {x: 1, y: 3}
+      - - {x: 2, y: 10}
+        - {x: -5, y: 10}
+        - {x: -11, y: -7}
+        - {x: -11, y: -15}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: -8}
+        - {x: 6, y: 4}
     - name: tileSheet - Copy_9
       rect:
         serializedVersion: 2
@@ -303,12 +306,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 3}
-        - {x: -16, y: -4}
-        - {x: 4, y: -4}
-        - {x: 6, y: -2}
-        - {x: 6, y: 1}
-        - {x: 4, y: 3}
+      - - {x: 1, y: 6}
+        - {x: -4, y: 3}
+        - {x: -10, y: -1}
+        - {x: -10, y: -6}
+        - {x: -8, y: -7}
+        - {x: -1, y: -7}
+        - {x: 7, y: -4}
+        - {x: 9, y: 0}
+        - {x: 9, y: 6}
     - name: tileSheet - Copy_10
       rect:
         serializedVersion: 2
@@ -540,10 +546,17 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
+      - - {x: -14, y: 7}
+        - {x: -14, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: 3}
+        - {x: -3, y: 7}
+      - - {x: 11, y: -4}
+        - {x: 8, y: -7}
+        - {x: 1, y: -15}
+        - {x: 1, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 16, y: -4}
     - name: tileSheet - Copy_25
       rect:
         serializedVersion: 2
@@ -555,10 +568,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
+      - - {x: 4, y: 16}
+        - {x: -1, y: 10}
+        - {x: -13, y: 10}
+        - {x: -16, y: 3}
         - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 11, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 13}
+        - {x: 11, y: 16}
     - name: tileSheet - Copy_26
       rect:
         serializedVersion: 2
@@ -570,10 +588,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
+      - - {x: -14, y: 16}
+        - {x: -14, y: -10}
+        - {x: -13, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 16, y: 6}
+        - {x: 1, y: 16}
     - name: tileSheet - Copy_27
       rect:
         serializedVersion: 2
@@ -585,10 +605,17 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -15}
+        - {x: -11, y: -4}
+        - {x: -16, y: -4}
+      - - {x: 3, y: 7}
+        - {x: -1, y: 3}
+        - {x: -1, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 5}
+        - {x: 11, y: 7}
     - name: tileSheet - Copy_28
       rect:
         serializedVersion: 2
@@ -600,10 +627,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
+      - - {x: 1, y: 14}
+        - {x: -7, y: -1}
+        - {x: -7, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 16, y: 13}
+        - {x: 13, y: 14}
     - name: tileSheet - Copy_29
       rect:
         serializedVersion: 2
@@ -615,10 +644,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
+      - - {x: -5, y: 16}
+        - {x: -16, y: 4}
         - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -2}
+        - {x: 15, y: 12}
+        - {x: 12, y: 16}
     - name: tileSheet - Copy_30
       rect:
         serializedVersion: 2
@@ -707,9 +739,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -13, y: 16}
+        - {x: -13, y: -3}
+        - {x: 6, y: -14}
+        - {x: 16, y: -14}
         - {x: 16, y: 16}
     - name: tileSheet - Copy_35
       rect:
@@ -722,10 +755,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 10, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -10}
+        - {x: -12, y: -10}
+        - {x: -6, y: -9}
+        - {x: 7, y: 1}
+        - {x: 11, y: 9}
+        - {x: 11, y: 15}
     - name: tileSheet - Copy_36
       rect:
         serializedVersion: 2
@@ -737,9 +774,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -10, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: 5}
+        - {x: 6, y: -9}
+        - {x: 15, y: -10}
+        - {x: 16, y: -10}
         - {x: 16, y: 16}
     - name: tileSheet - Copy_37
       rect:
@@ -753,9 +793,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -15, y: -14}
+        - {x: -2, y: -14}
+        - {x: 13, y: 5}
+        - {x: 13, y: 16}
     - name: tileSheet - Copy_38
       rect:
         serializedVersion: 2
@@ -767,10 +809,25 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -13, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -7}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -9}
         - {x: 16, y: 16}
+      - - {x: 9, y: -13}
+        - {x: 11, y: -15}
+        - {x: 14, y: -14}
+        - {x: 14, y: -11}
+        - {x: 12, y: -9}
+        - {x: 9, y: -10}
+      - - {x: 12, y: -1}
+        - {x: 12, y: -7}
+        - {x: 13, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 1}
+        - {x: 15, y: 1}
     - name: tileSheet - Copy_39
       rect:
         serializedVersion: 2
@@ -783,9 +840,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -9, y: -16}
+        - {x: -4, y: -16}
+        - {x: 5, y: 10}
+        - {x: 5, y: 16}
     - name: tileSheet - Copy_40
       rect:
         serializedVersion: 2
@@ -941,12 +1000,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -15, y: 0}
-        - {x: -15, y: -7}
-        - {x: -11, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -6}
-        - {x: 3, y: 0}
+      - - {x: -10, y: 8}
+        - {x: -13, y: 0}
+        - {x: -13, y: -16}
+        - {x: -5, y: -16}
+        - {x: 16, y: 3}
+        - {x: 16, y: 10}
+        - {x: -6, y: 10}
     - name: tileSheet - Copy_49
       rect:
         serializedVersion: 2
@@ -958,11 +1018,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: -16}
-        - {x: -7, y: -16}
-        - {x: -7, y: -15}
-        - {x: -13, y: -9}
-        - {x: -16, y: -9}
+      - - {x: 2, y: 10}
+        - {x: -16, y: 10}
+        - {x: -16, y: 3}
+        - {x: -4, y: 2}
+        - {x: 4, y: 2}
+        - {x: 5, y: 4}
+        - {x: 5, y: 8}
     - name: tileSheet - Copy_50
       rect:
         serializedVersion: 2
@@ -1118,11 +1180,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: -4}
-        - {x: -16, y: -16}
-        - {x: 3, y: -16}
-        - {x: 3, y: -7}
-        - {x: -5, y: -4}
+      - - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -7, y: -3}
+        - {x: 16, y: -3}
+        - {x: 16, y: 4}
+        - {x: -4, y: 16}
     - name: tileSheet - Copy_58
       rect:
         serializedVersion: 2
@@ -1134,12 +1197,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: -16}
-        - {x: 4, y: -16}
-        - {x: 4, y: 0}
-        - {x: 1, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 12}
+      - - {x: -16, y: -3}
+        - {x: -10, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: 2}
+        - {x: 3, y: 4}
+        - {x: -16, y: 4}
     - name: tileSheet - Copy_59
       rect:
         serializedVersion: 2
@@ -1242,11 +1305,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 10, y: -12}
-        - {x: 10, y: -16}
+      - - {x: -4, y: 16}
+        - {x: -8, y: 16}
+        - {x: -10, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: -10}
-        - {x: 12, y: -10}
+        - {x: 16, y: 8}
+        - {x: 13, y: 12}
     - name: tileSheet - Copy_66
       rect:
         serializedVersion: 2
@@ -1258,16 +1324,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: -16}
-        - {x: -10, y: -16}
-        - {x: -10, y: -15}
-        - {x: -15, y: -10}
-        - {x: -16, y: -10}
-      - - {x: 8, y: -13}
-        - {x: 8, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -1}
-        - {x: 13, y: -2}
+      - - {x: -11, y: 13}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -3}
+        - {x: 12, y: 13}
     - name: tileSheet - Copy_67
       rect:
         serializedVersion: 2
@@ -1279,18 +1341,19 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -14}
-        - {x: -14, y: -14}
-        - {x: -10, y: -9}
+      - - {x: -1, y: 16}
         - {x: -10, y: 16}
-      - - {x: -6, y: 16}
-        - {x: -5, y: 12}
-        - {x: 2, y: -1}
-        - {x: 9, y: -8}
-        - {x: 16, y: -8}
-        - {x: 16, y: 0}
-        - {x: 4, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: 7}
+        - {x: -14, y: 5}
+        - {x: -6, y: 5}
+        - {x: -9, y: 5}
+        - {x: -14, y: 1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -12}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
     - name: tileSheet - Copy_68
       rect:
         serializedVersion: 2
@@ -1302,13 +1365,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 16}
-        - {x: -4, y: 16}
-        - {x: -16, y: 0}
-        - {x: -16, y: -8}
-        - {x: -8, y: -8}
-        - {x: -5, y: -7}
-        - {x: 4, y: 3}
+      - - {x: -6, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 15}
+        - {x: 12, y: 16}
     - name: tileSheet - Copy_69
       rect:
         serializedVersion: 2
@@ -1411,9 +1474,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 10, y: 16}
-        - {x: 9, y: -14}
-        - {x: 9, y: -16}
+      - - {x: -13, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -2}
+        - {x: -2, y: -13}
+        - {x: 6, y: -16}
         - {x: 16, y: -16}
         - {x: 16, y: 16}
     - name: tileSheet - Copy_76
@@ -1427,17 +1492,20 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: 7}
-        - {x: -2, y: -16}
+      - - {x: 4, y: -6}
+        - {x: 3, y: -14}
         - {x: 5, y: -16}
-        - {x: 5, y: 2}
-        - {x: 3, y: 16}
-      - - {x: 7, y: 16}
-        - {x: 7, y: 8}
-        - {x: 10, y: 6}
-        - {x: 16, y: 6}
-        - {x: 16, y: 16}
+        - {x: 8, y: -16}
+        - {x: 15, y: -8}
+        - {x: 16, y: -4}
+        - {x: 16, y: 10}
+        - {x: 13, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -8, y: -16}
+        - {x: -3, y: -14}
+        - {x: 2, y: -10}
+        - {x: 4, y: -8}
     - name: tileSheet - Copy_77
       rect:
         serializedVersion: 2
@@ -1449,18 +1517,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 1}
-        - {x: -6, y: -16}
-        - {x: 2, y: -16}
-        - {x: 2, y: 0}
-        - {x: -1, y: 3}
-        - {x: -4, y: 3}
-      - - {x: -16, y: 13}
-        - {x: -16, y: 4}
-        - {x: -12, y: 3}
-        - {x: 16, y: 3}
-        - {x: 16, y: 10}
-        - {x: -11, y: 13}
+      - - {x: -15, y: 16}
+        - {x: -16, y: 10}
+        - {x: -15, y: -1}
+        - {x: 0, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
     - name: tileSheet - Copy_78
       rect:
         serializedVersion: 2
@@ -1472,13 +1534,19 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 10}
-        - {x: -16, y: 1}
-        - {x: -10, y: -16}
-        - {x: 2, y: -16}
-        - {x: 2, y: -7}
-        - {x: -2, y: 6}
-        - {x: -6, y: 10}
+      - - {x: 3, y: -5}
+        - {x: 2, y: -13}
+        - {x: 4, y: -15}
+        - {x: 8, y: -15}
+        - {x: 16, y: -6}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -9, y: -15}
+        - {x: -4, y: -13}
+        - {x: 1, y: -9}
+        - {x: 3, y: -7}
     - name: tileSheet - Copy_79
       rect:
         serializedVersion: 2
@@ -1581,12 +1649,17 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 8, y: 16}
-        - {x: 5, y: 3}
-        - {x: 5, y: -16}
-        - {x: 12, y: -16}
-        - {x: 16, y: 7}
-        - {x: 16, y: 16}
+      - - {x: 9, y: -15}
+        - {x: 9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+        - {x: 13, y: -12}
+      - - {x: 0, y: 2}
+        - {x: 0, y: -7}
+        - {x: 13, y: -11}
+        - {x: 16, y: -11}
+        - {x: 16, y: -1}
+        - {x: 12, y: 2}
     - name: tileSheet - Copy_86
       rect:
         serializedVersion: 2
@@ -1598,10 +1671,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: -16}
-        - {x: 5, y: 16}
-        - {x: -2, y: 16}
-        - {x: -2, y: -16}
+      - - {x: -15, y: 0}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
     - name: tileSheet - Copy_87
       rect:
         serializedVersion: 2
@@ -1613,12 +1687,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 16}
-        - {x: -7, y: 8}
-        - {x: -7, y: -16}
-        - {x: 1, y: -16}
-        - {x: 2, y: 6}
-        - {x: 2, y: 16}
+      - - {x: -16, y: 0}
+        - {x: -16, y: -7}
+        - {x: 12, y: -7}
+        - {x: 16, y: -6}
+        - {x: 16, y: 2}
+        - {x: 5, y: 2}
     - name: tileSheet - Copy_88
       rect:
         serializedVersion: 2
@@ -1630,12 +1704,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 16}
-        - {x: -6, y: -1}
-        - {x: -4, y: -16}
-        - {x: 4, y: -16}
-        - {x: 4, y: 2}
-        - {x: 2, y: 16}
+      - - {x: -16, y: 2}
+        - {x: -16, y: -6}
+        - {x: 4, y: -6}
+        - {x: 5, y: -3}
+        - {x: 5, y: 1}
+        - {x: 3, y: 2}
     - name: tileSheet - Copy_89
       rect:
         serializedVersion: 2
@@ -1738,12 +1812,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 16}
-        - {x: 5, y: 0}
-        - {x: 7, y: -2}
-        - {x: 10, y: -2}
-        - {x: 12, y: 0}
-        - {x: 12, y: 16}
+      - - {x: 8, y: 16}
+        - {x: 8, y: 8}
+        - {x: 12, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: tileSheet - Copy_96
       rect:
         serializedVersion: 2
@@ -1755,12 +1828,23 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: 16}
-        - {x: -2, y: 11}
-        - {x: 2, y: 6}
-        - {x: 16, y: 6}
-        - {x: 16, y: 13}
-        - {x: 7, y: 16}
+      - - {x: -15, y: 11}
+        - {x: -16, y: 11}
+        - {x: -16, y: 2}
+        - {x: 14, y: -1}
+        - {x: 16, y: -1}
+        - {x: 16, y: 8}
+        - {x: 12, y: 9}
+      - - {x: 4, y: 16}
+        - {x: 4, y: 15}
+        - {x: 9, y: 9}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 12}
+        - {x: -12, y: 13}
+        - {x: -10, y: 15}
+        - {x: -10, y: 16}
     - name: tileSheet - Copy_97
       rect:
         serializedVersion: 2
@@ -1772,15 +1856,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 13}
-        - {x: -16, y: 4}
-        - {x: -11, y: -11}
-        - {x: -8, y: -12}
-        - {x: -1, y: -12}
-        - {x: 16, y: 0}
-        - {x: 16, y: 10}
-        - {x: 2, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -1}
+        - {x: -13, y: -2}
+        - {x: 11, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: 3}
+        - {x: -10, y: 16}
     - name: tileSheet - Copy_98
       rect:
         serializedVersion: 2
@@ -1792,13 +1874,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -8, y: 16}
-        - {x: -16, y: 8}
-        - {x: -16, y: -2}
-        - {x: -12, y: -4}
-        - {x: -1, y: -4}
-        - {x: 3, y: 4}
-        - {x: 3, y: 16}
+      - - {x: -11, y: 3}
+        - {x: -16, y: 3}
+        - {x: -16, y: -8}
+        - {x: -14, y: -9}
+        - {x: 16, y: -9}
+        - {x: 16, y: -2}
+        - {x: -6, y: 2}
     outline: []
   spritePackingTag: 
   userData: 
