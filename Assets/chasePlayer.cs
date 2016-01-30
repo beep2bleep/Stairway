@@ -21,7 +21,7 @@ public class chasePlayer : MonoBehaviour {
         player = GameObject.FindWithTag("Player").transform;
         agent.SetDestination(player.position);
         //counter = GameObject.FindGameObjectWithTag("KillCount");
-
+        counter = GameObject.FindObjectOfType<killCount>();
         death.enabled = false;
     }
 	

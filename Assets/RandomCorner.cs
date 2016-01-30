@@ -15,7 +15,7 @@ public class RandomCorner : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        nextNav = Random.Range(0, 3);
+        nextNav = Random.Range(0, 4);
 
     }
 	
@@ -41,13 +41,17 @@ public class RandomCorner : MonoBehaviour {
 
                     agent.SetDestination(BotLeft.position);
                     break;
+                case 4:
+
+                    agent.SetDestination(new Vector3(0,0,0));
+                    break;
             }
             skipNavCount = 0;
         }
         else
         {
             skipNavCount++;
-            nextNav = Random.Range(0, 3);
+            nextNav = Random.Range(0, 4);
         }
     }
 }
