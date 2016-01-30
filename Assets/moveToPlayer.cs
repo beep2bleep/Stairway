@@ -12,6 +12,8 @@ public class moveToPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.position.Set(player.transform.position.x, 16, player.transform.position.z);
+        Vector3 newPos = new Vector3(player.transform.position.x, 16, player.transform.position.z);
+        transform.position = newPos;
+        
 	}
 }

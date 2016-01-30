@@ -18,7 +18,9 @@ public class Move : MonoBehaviour {
         float speed = Vector3.Magnitude(myBody.velocity);
         if (Input.GetKey(KeyCode.A))
         {
-            if (myBody.velocity.x < maxSpeed)
+
+            if (myBody.velocity.x > maxSpeed * -1)
+                
             {
                 myBody.AddForce(Vector3.left * speedAddition);
             }
@@ -33,7 +35,8 @@ public class Move : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.S))
         {
-            if (myBody.velocity.x < maxSpeed)
+            if (myBody.velocity.z > maxSpeed * -1)
+                
             {
                 myBody.AddForce(Vector3.back * speedAddition);
             }
@@ -41,7 +44,7 @@ public class Move : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.W))
         {
-            if (myBody.velocity.x < maxSpeed)
+            if (myBody.velocity.z < maxSpeed)
             {
                 myBody.AddForce(Vector3.forward * speedAddition);
             }
