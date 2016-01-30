@@ -13,12 +13,14 @@ public class chasePlayer : MonoBehaviour {
     private float timeSinceWalkSwitch;
     bool dead = false;
     public float health = 20;
+    public killCount counter;
 
     // Use this for initialization
     void Start () {
 
         player = GameObject.FindWithTag("Player").transform;
         agent.SetDestination(player.position);
+        //counter = GameObject.FindGameObjectWithTag("KillCount");
 
         death.enabled = false;
     }
@@ -64,9 +66,10 @@ public class chasePlayer : MonoBehaviour {
     void ApplyDamage(float amount)
     {
         health -= amount;
-        if (health >= 0)
+        if (health <= 0)
         {
             dead = true;
+            counter.addKill();
         }
     }
 }
