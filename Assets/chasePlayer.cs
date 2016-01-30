@@ -12,6 +12,7 @@ public class chasePlayer : MonoBehaviour {
     public float speedToSwitchWalk = 30;
     private float timeSinceWalkSwitch;
     bool dead = false;
+    public float health = 20;
 
     // Use this for initialization
     void Start () {
@@ -25,7 +26,7 @@ public class chasePlayer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-        if (skipNavCount > skipNav)
+        if (skipNavCount > skipNav && !dead)
         {
             agent.SetDestination(player.position);
             skipNavCount = 0;
@@ -50,11 +51,22 @@ public class chasePlayer : MonoBehaviour {
 
         if (dead)
         {
+            agent.enabled = false;
+            this.GetComponent<Collider>().enabled = false;
             walk1.enabled = false;
             walk2.enabled = false;
             death.enabled = true;
         }
 
 
+    }
+
+    void ApplyDamage(float amount)
+    {
+        health -= amount;
+        if (health >= 0)
+        {
+            dead = true;
+        }
     }
 }

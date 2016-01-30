@@ -16,15 +16,16 @@ public class Shoot : MonoBehaviour
 	//private PlayerCharacter _player;
     public bool touchShot = false;
     public Transform gun;
-	
-	// Use this for initialization
-	void Start()
-	{
-		//_player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>();
-	}
-	
-	// Update is called once per frame
-	void Update()
+    private Transform prefabHolder;
+
+    // Use this for initialization
+    void Start()
+    {
+        prefabHolder = GameObject.FindGameObjectWithTag("PrefabHolder").transform;
+    }
+
+    // Update is called once per frame
+    void Update()
 	{  
 		lastfiretime += Time.deltaTime;
 		lastSoundtime += Time.deltaTime;
@@ -49,9 +50,9 @@ public class Shoot : MonoBehaviour
 		if (lastfiretime > timebetweenshots && (Input.GetButton("Fire1") || Input.GetAxisRaw("RightTrigger") != 0) == true) //&& _player.ViewOption == PlayerViewOptions.OverTheShoulder && (Input.touchCount == 0 || touchShot))
 		{
 			lastfiretime = 0;
-			var clone  = Instantiate(Bullet, gun.position, gun.rotation);
-			
-			if(lastSoundtime > timebetweenshots)
+			var clone  = (GameObject)Instantiate(Bullet, gun.position, gun.rotation);
+            clone.transform.parent = prefabHolder;
+            if (lastSoundtime > timebetweenshots)
 			{
 				lastSoundtime = 0;
 				this.audioS.PlayOneShot(Audio);

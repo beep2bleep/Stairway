@@ -40,8 +40,10 @@ public class ImpactDamage : MonoBehaviour
     {
         if (col.gameObject.name == "Enemy" || col.gameObject.name == "Enemy(Clone)")
         {
-            Destroy(col.gameObject);
+            //Destroy(col.gameObject);
             GetComponent<AudioSource>().PlayOneShot(oneHitSound);
+            //Do damange
+            col.gameObject.SendMessage("ApplyDamage", 5.0);
         }
     }
 }
