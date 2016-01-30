@@ -27,6 +27,8 @@ public class lookAtCursor : MonoBehaviour {
         var camPos = myCam.ScreenToWorldPoint(Input.mousePosition);
         camPos.Set(camPos.x, -8.25f, camPos.z);
         transform.LookAt(camPos);
+
+
         //Transform toSet = transform;
         //toSet.transform.localPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         ////toSet.rotation = new Quaternion(this.transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
