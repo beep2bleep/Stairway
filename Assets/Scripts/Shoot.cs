@@ -10,7 +10,9 @@ public class Shoot : MonoBehaviour
 	private double lastSoundtime = 0;
 	public GameObject Bullet;
 	public AudioClip Audio;
-	public AudioSource audioS;
+    public AudioClip AudioStairway;
+    public AudioSource audioS;
+    public AudioSource stairWay;
 	//private PlayerCharacter _player;
     public bool touchShot = false;
     public Transform gun;
@@ -56,10 +58,21 @@ public class Shoot : MonoBehaviour
 			}
 			Destroy(clone, .8f);
 		}
-		else if(false)//Test for touchscreen input
+		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
 		{
-			
-		}
+            //Alt fire (music)
+            lastfiretime = 0;
+            var clone = Instantiate(Bullet, gun.position, gun.rotation);
+
+            if (lastSoundtime > timebetweenshots)
+            {
+                lastSoundtime = 0;
+                stairWay.pitch = Random.Range(0,100);
+                stairWay.Play();
+            }
+            Destroy(clone, .8f);
+        }
+        
 #endif
         
 		

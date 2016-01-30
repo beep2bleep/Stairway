@@ -8,11 +8,12 @@ public class Spawn : MonoBehaviour {
     public float timeToSpawn;
     public float timeSinceLastSpawn;
     public float dontSpawnDistance;
+    private Transform prefabHolder;
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+        prefabHolder = GameObject.FindGameObjectWithTag("PrefabHolder").transform;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,7 +23,8 @@ public class Spawn : MonoBehaviour {
             var distance = Vector3.Distance(transform.position, player.position);
             if (distance > dontSpawnDistance)
             {
-                GameObject.Instantiate(toSpawn, transform.position, transform.rotation);
+                GameObject newSpawn = (GameObject)Instantiate(toSpawn, transform.position, transform.rotation);
+                newSpawn.transform.parent = prefabHolder;
             }
             timeSinceLastSpawn = 0;
         }
