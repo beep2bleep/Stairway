@@ -17,7 +17,6 @@ public class Shoot : MonoBehaviour
     public bool touchShot = false;
     public Transform gun;
     private Transform prefabHolder;
-    public SpriteRenderer flash;
 
     // Use this for initialization
     void Start()
@@ -59,10 +58,7 @@ public class Shoot : MonoBehaviour
 				this.audioS.PlayOneShot(Audio);
 			}
 			Destroy(clone, .8f);
-
-            flash.enabled = true;
-            StartCoroutine(DisableFlash());
-        }
+		}
 		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
 		{
             //Alt fire (music)
@@ -77,15 +73,10 @@ public class Shoot : MonoBehaviour
             }
             Destroy(clone, .8f);
         }
-
+        
 #endif
         
-
-    }
-    IEnumerator DisableFlash()
-    {
-        yield return new WaitForFixedUpdate();
-        flash.enabled = false;
-    }
-
+		
+	}
+	
 }
