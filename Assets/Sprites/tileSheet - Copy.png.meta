@@ -1,13 +1,112 @@
 fileFormatVersion: 2
 guid: 17f41deb6cedb0947864340d19e1a509
-timeCreated: 1454196735
+timeCreated: 1454196979
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tileSheet - Copy_0
+    21300002: tileSheet - Copy_1
+    21300004: tileSheet - Copy_2
+    21300006: tileSheet - Copy_3
+    21300008: tileSheet - Copy_4
+    21300010: tileSheet - Copy_5
+    21300012: tileSheet - Copy_6
+    21300014: tileSheet - Copy_7
+    21300016: tileSheet - Copy_8
+    21300018: tileSheet - Copy_9
+    21300020: tileSheet - Copy_10
+    21300022: tileSheet - Copy_11
+    21300024: tileSheet - Copy_12
+    21300026: tileSheet - Copy_13
+    21300028: tileSheet - Copy_14
+    21300030: tileSheet - Copy_15
+    21300032: tileSheet - Copy_16
+    21300034: tileSheet - Copy_17
+    21300036: tileSheet - Copy_18
+    21300038: tileSheet - Copy_19
+    21300040: tileSheet - Copy_20
+    21300042: tileSheet - Copy_21
+    21300044: tileSheet - Copy_22
+    21300046: tileSheet - Copy_23
+    21300048: tileSheet - Copy_24
+    21300050: tileSheet - Copy_25
+    21300052: tileSheet - Copy_26
+    21300054: tileSheet - Copy_27
+    21300056: tileSheet - Copy_28
+    21300058: tileSheet - Copy_29
+    21300060: tileSheet - Copy_30
+    21300062: tileSheet - Copy_31
+    21300064: tileSheet - Copy_32
+    21300066: tileSheet - Copy_33
+    21300068: tileSheet - Copy_34
+    21300070: tileSheet - Copy_35
+    21300072: tileSheet - Copy_36
+    21300074: tileSheet - Copy_37
+    21300076: tileSheet - Copy_38
+    21300078: tileSheet - Copy_39
+    21300080: tileSheet - Copy_40
+    21300082: tileSheet - Copy_41
+    21300084: tileSheet - Copy_42
+    21300086: tileSheet - Copy_43
+    21300088: tileSheet - Copy_44
+    21300090: tileSheet - Copy_45
+    21300092: tileSheet - Copy_46
+    21300094: tileSheet - Copy_47
+    21300096: tileSheet - Copy_48
+    21300098: tileSheet - Copy_49
+    21300100: tileSheet - Copy_50
+    21300102: tileSheet - Copy_51
+    21300104: tileSheet - Copy_52
+    21300106: tileSheet - Copy_53
+    21300108: tileSheet - Copy_54
+    21300110: tileSheet - Copy_55
+    21300112: tileSheet - Copy_56
+    21300114: tileSheet - Copy_57
+    21300116: tileSheet - Copy_58
+    21300118: tileSheet - Copy_59
+    21300120: tileSheet - Copy_60
+    21300122: tileSheet - Copy_61
+    21300124: tileSheet - Copy_62
+    21300126: tileSheet - Copy_63
+    21300128: tileSheet - Copy_64
+    21300130: tileSheet - Copy_65
+    21300132: tileSheet - Copy_66
+    21300134: tileSheet - Copy_67
+    21300136: tileSheet - Copy_68
+    21300138: tileSheet - Copy_69
+    21300140: tileSheet - Copy_70
+    21300142: tileSheet - Copy_71
+    21300144: tileSheet - Copy_72
+    21300146: tileSheet - Copy_73
+    21300148: tileSheet - Copy_74
+    21300150: tileSheet - Copy_75
+    21300152: tileSheet - Copy_76
+    21300154: tileSheet - Copy_77
+    21300156: tileSheet - Copy_78
+    21300158: tileSheet - Copy_79
+    21300160: tileSheet - Copy_80
+    21300162: tileSheet - Copy_81
+    21300164: tileSheet - Copy_82
+    21300166: tileSheet - Copy_83
+    21300168: tileSheet - Copy_84
+    21300170: tileSheet - Copy_85
+    21300172: tileSheet - Copy_86
+    21300174: tileSheet - Copy_87
+    21300176: tileSheet - Copy_88
+    21300178: tileSheet - Copy_89
+    21300180: tileSheet - Copy_90
+    21300182: tileSheet - Copy_91
+    21300184: tileSheet - Copy_92
+    21300186: tileSheet - Copy_93
+    21300188: tileSheet - Copy_94
+    21300190: tileSheet - Copy_95
+    21300192: tileSheet - Copy_96
+    21300194: tileSheet - Copy_97
+    21300196: tileSheet - Copy_98
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -26,30 +125,1762 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tileSheet - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 15}
+        - {x: -16, y: 10}
+        - {x: -16, y: -13}
+        - {x: -15, y: -14}
+        - {x: 13, y: -14}
+        - {x: 13, y: 15}
+    - name: tileSheet - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -13, y: 4}
+        - {x: -13, y: -11}
+        - {x: -12, y: -15}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 5}
+        - {x: 4, y: 16}
+    - name: tileSheet - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 10}
+        - {x: -5, y: 10}
+        - {x: -11, y: -7}
+        - {x: -11, y: -15}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: -8}
+        - {x: 6, y: 4}
+    - name: tileSheet - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 6}
+        - {x: -4, y: 3}
+        - {x: -10, y: -1}
+        - {x: -10, y: -6}
+        - {x: -8, y: -7}
+        - {x: -1, y: -7}
+        - {x: 7, y: -4}
+        - {x: 9, y: 0}
+        - {x: 9, y: 6}
+    - name: tileSheet - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 15}
+        - {x: -11, y: 13}
+        - {x: -16, y: 2}
+        - {x: -16, y: -11}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+    - name: tileSheet - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: -9, y: 14}
+    - name: tileSheet - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 2}
+        - {x: 1, y: -1}
+        - {x: -7, y: -6}
+        - {x: -11, y: -12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+    - name: tileSheet - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -7}
+        - {x: 11, y: -2}
+        - {x: -4, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 7}
+        - {x: -14, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: 3}
+        - {x: -3, y: 7}
+      - - {x: 11, y: -4}
+        - {x: 8, y: -7}
+        - {x: 1, y: -15}
+        - {x: 1, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -4}
+    - name: tileSheet - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -1, y: 10}
+        - {x: -13, y: 10}
+        - {x: -16, y: 3}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 13}
+        - {x: 11, y: 16}
+    - name: tileSheet - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -10}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 1, y: 16}
+    - name: tileSheet - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -15}
+        - {x: -11, y: -4}
+        - {x: -16, y: -4}
+      - - {x: 3, y: 7}
+        - {x: -1, y: 3}
+        - {x: -1, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 5}
+        - {x: 11, y: 7}
+    - name: tileSheet - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -7, y: -1}
+        - {x: -7, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 13, y: 14}
+    - name: tileSheet - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -2}
+        - {x: 15, y: 12}
+        - {x: 12, y: 16}
+    - name: tileSheet - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 5}
+        - {x: -12, y: -3}
+        - {x: 5, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -10}
+        - {x: -14, y: -11}
+        - {x: 3, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -9}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -10}
+        - {x: 6, y: -14}
+        - {x: 10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 11, y: -8}
+      - - {x: -11, y: 16}
+        - {x: -13, y: 10}
+        - {x: -13, y: -11}
+        - {x: -11, y: -12}
+        - {x: 5, y: -12}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: -1, y: -8}
+        - {x: 11, y: -6}
+        - {x: 12, y: -3}
+        - {x: 12, y: 16}
+    - name: tileSheet - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -3}
+        - {x: 6, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -10}
+        - {x: -12, y: -10}
+        - {x: -6, y: -9}
+        - {x: 7, y: 1}
+        - {x: 11, y: 9}
+        - {x: 11, y: 15}
+    - name: tileSheet - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: 5}
+        - {x: 6, y: -9}
+        - {x: 15, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -15, y: -14}
+        - {x: -2, y: -14}
+        - {x: 13, y: 5}
+        - {x: 13, y: 16}
+    - name: tileSheet - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -7}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 16}
+      - - {x: 9, y: -13}
+        - {x: 11, y: -15}
+        - {x: 14, y: -14}
+        - {x: 14, y: -11}
+        - {x: 12, y: -9}
+        - {x: 9, y: -10}
+      - - {x: 12, y: -1}
+        - {x: 12, y: -7}
+        - {x: 13, y: -10}
+        - {x: 16, y: -10}
+        - {x: 16, y: 1}
+        - {x: 15, y: 1}
+    - name: tileSheet - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -12}
+        - {x: -9, y: -16}
+        - {x: -4, y: -16}
+        - {x: 5, y: 10}
+        - {x: 5, y: 16}
+    - name: tileSheet - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -6}
+        - {x: -8, y: -12}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 11, y: 2}
+        - {x: 6, y: 1}
+      - - {x: 13, y: 5}
+        - {x: 15, y: 3}
+        - {x: 16, y: 3}
+        - {x: 16, y: 8}
+        - {x: 14, y: 8}
+    - name: tileSheet - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 1}
+        - {x: -7, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: -9}
+        - {x: 10, y: -3}
+    - name: tileSheet - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 2}
+        - {x: -11, y: -7}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+    - name: tileSheet - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -12, y: 16}
+        - {x: -14, y: 14}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -14}
+        - {x: 8, y: -5}
+        - {x: -1, y: 14}
+    - name: tileSheet - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -7}
+        - {x: 11, y: -7}
+        - {x: 3, y: -9}
+    - name: tileSheet - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -16, y: -4}
+        - {x: -16, y: -16}
+        - {x: -8, y: -16}
+        - {x: 15, y: -2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: 9, y: 9}
+        - {x: 8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -8, y: -16}
+        - {x: -8, y: -3}
+        - {x: -11, y: 16}
+    - name: tileSheet - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 8}
+        - {x: -13, y: 0}
+        - {x: -13, y: -16}
+        - {x: -5, y: -16}
+        - {x: 16, y: 3}
+        - {x: 16, y: 10}
+        - {x: -6, y: 10}
+    - name: tileSheet - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 10}
+        - {x: -16, y: 10}
+        - {x: -16, y: 3}
+        - {x: -4, y: 2}
+        - {x: 4, y: 2}
+        - {x: 5, y: 4}
+        - {x: 5, y: 8}
+    - name: tileSheet - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -8}
+        - {x: 5, y: -10}
+        - {x: 5, y: -14}
+        - {x: 9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+      - - {x: -8, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -9}
+        - {x: -12, y: -11}
+        - {x: -4, y: -12}
+        - {x: 4, y: -12}
+        - {x: 16, y: -7}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: -10, y: -8}
+        - {x: 14, y: -2}
+        - {x: 14, y: 2}
+        - {x: 12, y: 4}
+        - {x: 14, y: 15}
+    - name: tileSheet - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -9}
+        - {x: 7, y: -11}
+        - {x: 7, y: -14}
+        - {x: 11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -11}
+        - {x: 13, y: -8}
+      - - {x: -11, y: 16}
+        - {x: -12, y: 11}
+        - {x: -12, y: -11}
+        - {x: -10, y: -12}
+        - {x: 11, y: -12}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -13, y: -15}
+        - {x: -13, y: -10}
+        - {x: -15, y: -8}
+        - {x: -16, y: -8}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -15, y: -8}
+        - {x: 11, y: -8}
+        - {x: 13, y: -4}
+        - {x: 13, y: 16}
+    - name: tileSheet - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 9}
+        - {x: -16, y: -11}
+        - {x: -12, y: -16}
+        - {x: 3, y: -16}
+        - {x: 12, y: -12}
+        - {x: 16, y: -4}
+        - {x: 16, y: 16}
+        - {x: -5, y: 16}
+        - {x: -10, y: 15}
+    - name: tileSheet - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 16}
+        - {x: 5, y: -8}
+        - {x: 8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -6, y: -16}
+        - {x: -5, y: 3}
+        - {x: -5, y: 14}
+    - name: tileSheet - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -7, y: -3}
+        - {x: 16, y: -3}
+        - {x: 16, y: 4}
+        - {x: -4, y: 16}
+    - name: tileSheet - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -3}
+        - {x: -10, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: 2}
+        - {x: 3, y: 4}
+        - {x: -16, y: 4}
+    - name: tileSheet - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 15, y: 15}
+    - name: tileSheet - Copy_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -8, y: 16}
+        - {x: -10, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 13, y: 12}
+    - name: tileSheet - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 13}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -3}
+        - {x: 12, y: 13}
+    - name: tileSheet - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: 7}
+        - {x: -14, y: 5}
+        - {x: -6, y: 5}
+        - {x: -9, y: 5}
+        - {x: -14, y: 1}
+        - {x: -14, y: -4}
+        - {x: -15, y: -12}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+    - name: tileSheet - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 15}
+        - {x: 12, y: 16}
+    - name: tileSheet - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 15, y: -14}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -2}
+        - {x: -2, y: -13}
+        - {x: 6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_76
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -6}
+        - {x: 3, y: -14}
+        - {x: 5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 15, y: -8}
+        - {x: 16, y: -4}
+        - {x: 16, y: 10}
+        - {x: 13, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -8, y: -16}
+        - {x: -3, y: -14}
+        - {x: 2, y: -10}
+        - {x: 4, y: -8}
+    - name: tileSheet - Copy_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 10}
+        - {x: -15, y: -1}
+        - {x: 0, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -5}
+        - {x: 2, y: -13}
+        - {x: 4, y: -15}
+        - {x: 8, y: -15}
+        - {x: 16, y: -6}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -9, y: -15}
+        - {x: -4, y: -13}
+        - {x: 1, y: -9}
+        - {x: 3, y: -7}
+    - name: tileSheet - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: -16, y: 15}
+    - name: tileSheet - Copy_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 15, y: 15}
+    - name: tileSheet - Copy_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -15}
+        - {x: 9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+        - {x: 13, y: -12}
+      - - {x: 0, y: 2}
+        - {x: 0, y: -7}
+        - {x: 13, y: -11}
+        - {x: 16, y: -11}
+        - {x: 16, y: -1}
+        - {x: 12, y: 2}
+    - name: tileSheet - Copy_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 0}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+    - name: tileSheet - Copy_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 0}
+        - {x: -16, y: -7}
+        - {x: 12, y: -7}
+        - {x: 16, y: -6}
+        - {x: 16, y: 2}
+        - {x: 5, y: 2}
+    - name: tileSheet - Copy_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 2}
+        - {x: -16, y: -6}
+        - {x: 4, y: -6}
+        - {x: 5, y: -3}
+        - {x: 5, y: 1}
+        - {x: 3, y: 2}
+    - name: tileSheet - Copy_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 15, y: -14}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: 8, y: 8}
+        - {x: 12, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+    - name: tileSheet - Copy_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 11}
+        - {x: -16, y: 11}
+        - {x: -16, y: 2}
+        - {x: 14, y: -1}
+        - {x: 16, y: -1}
+        - {x: 16, y: 8}
+        - {x: 12, y: 9}
+      - - {x: 4, y: 16}
+        - {x: 4, y: 15}
+        - {x: 9, y: 9}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 12}
+        - {x: -12, y: 13}
+        - {x: -10, y: 15}
+        - {x: -10, y: 16}
+    - name: tileSheet - Copy_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -1}
+        - {x: -13, y: -2}
+        - {x: 11, y: -7}
+        - {x: 16, y: -7}
+        - {x: 16, y: 3}
+        - {x: -10, y: 16}
+    - name: tileSheet - Copy_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 3}
+        - {x: -16, y: 3}
+        - {x: -16, y: -8}
+        - {x: -14, y: -9}
+        - {x: 16, y: -9}
+        - {x: 16, y: -2}
+        - {x: -6, y: 2}
     outline: []
   spritePackingTag: 
   userData: 

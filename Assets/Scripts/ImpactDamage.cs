@@ -45,10 +45,8 @@ public class ImpactDamage : MonoBehaviour
             GetComponent<AudioSource>().PlayOneShot(oneHitSound);
             //Do damange
             col.gameObject.SendMessage("ApplyDamage", 8.0f);
-<<<<<<< HEAD
             Destroy(parent);
-=======
->>>>>>> 56ee2f660e3af1b22a5e3d0f46ea17bef949a44f
+
         }
     }
 }
