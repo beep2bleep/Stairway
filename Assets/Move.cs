@@ -94,7 +94,7 @@ public class Move : MonoBehaviour {
         if (other.tag == "Enemy")
         {
             Destroy(other.GetComponentInParent<Transform>().gameObject);
-            Instantiate(splat, transform.position, new Quaternion());
+            Instantiate(splat, transform.position, transform.rotation);
         }
     }
 }
