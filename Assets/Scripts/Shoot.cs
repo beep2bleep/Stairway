@@ -24,7 +24,15 @@ public class Shoot : MonoBehaviour
     public Slider rocking;
     public UnityEngine.UI.Text healthText;
     public UnityEngine.UI.Text rockText;
-    
+    public SpriteRenderer walk1;
+    public SpriteRenderer walk2;
+    public SpriteRenderer stand;
+    public Sprite squid1;
+    public Sprite squid2;
+    public Sprite hum1;
+    public Sprite hum2;
+    public Sprite spider1;
+    public Sprite spider2;
 
     // Use this for initialization
     void Start()
@@ -72,7 +80,25 @@ public class Shoot : MonoBehaviour
             health.value -= 1;
             healthText.text = "-1";
             Destroy(clone, .8f);
-		}
+            if(rocking.value > 70 && rocking.value < 125)
+            {
+                walk1.sprite = hum1;
+                walk2.sprite = hum2;
+                stand.sprite = hum1;
+            }
+            if (rocking.value > 125 && rocking.value < 240)
+            {
+                walk1.sprite = squid1;
+                walk2.sprite = squid2;
+                stand.sprite = squid1;
+            }
+            if (rocking.value > 240 && rocking.value < 300)
+            {
+                walk1.sprite = spider1;
+                walk2.sprite = spider2;
+                stand.sprite = spider1;
+            }
+        }
 		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
 		{
             healthText.text = "";

@@ -20,11 +20,13 @@ public class dieIfRockingGoesTo0WinIfRockingMax : MonoBehaviour
         if (health.value == health.minValue)
         {
             //Lose
+
             Application.LoadLevel(2);
         }
         else if (rocking.value == rocking.maxValue)
         {
             //Win
+
             Application.LoadLevel(3);
         }
     }
