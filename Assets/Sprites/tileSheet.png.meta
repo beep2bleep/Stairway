@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 072ebd672914e454f833d50586d8fc2e
-timeCreated: 1454186141
+timeCreated: 1454259168
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -24,6 +24,11 @@ TextureImporter:
     21300034: tileSheet_17
     21300036: tileSheet_18
     21300038: tileSheet_19
+    21300040: tileSheet_20
+    21300042: tileSheet_21
+    21300044: tileSheet_22
+    21300046: tileSheet_23
+    21300048: tileSheet_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -357,22 +362,29 @@ TextureImporter:
     - name: tileSheet_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: -30}
-        - {x: 32, y: -30}
-        - {x: 32, y: 31}
-        - {x: -32, y: 31}
+      - - {x: -32, y: 32}
+        - {x: -32, y: 26}
+        - {x: -31, y: 24}
+        - {x: -28, y: 23}
+        - {x: -23, y: 23}
+        - {x: -26, y: 23}
+        - {x: -32, y: 22}
+        - {x: -32, y: -32}
+        - {x: 31, y: -32}
+        - {x: 31, y: 18}
+        - {x: 30, y: 32}
     - name: tileSheet_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 64
         width: 64
         height: 64
@@ -387,6 +399,21 @@ TextureImporter:
     - name: tileSheet_16
       rect:
         serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -30}
+        - {x: 32, y: -30}
+        - {x: 32, y: 31}
+        - {x: -32, y: 31}
+    - name: tileSheet_17
+      rect:
+        serializedVersion: 2
         x: 128
         y: 64
         width: 64
@@ -401,7 +428,60 @@ TextureImporter:
         - {x: 32, y: -29}
         - {x: 32, y: 30}
         - {x: 31, y: 31}
-    - name: tileSheet_17
+    - name: tileSheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -30}
+        - {x: 21, y: -32}
+        - {x: 25, y: -32}
+        - {x: 32, y: -21}
+        - {x: 32, y: 30}
+        - {x: 24, y: 32}
+        - {x: -30, y: 32}
+        - {x: -32, y: 30}
+        - {x: -32, y: -20}
+        - {x: -16, y: -32}
+        - {x: 14, y: -32}
+        - {x: 18, y: -26}
+        - {x: 20, y: -24}
+        - {x: 20, y: -22}
+    - name: tileSheet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -29}
+        - {x: 19, y: -31}
+        - {x: 28, y: -31}
+        - {x: 32, y: -21}
+        - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: 23}
+        - {x: -27, y: 21}
+        - {x: -22, y: 21}
+        - {x: -25, y: 21}
+        - {x: -32, y: 20}
+        - {x: -32, y: -19}
+        - {x: -24, y: -31}
+        - {x: 16, y: -31}
+        - {x: 17, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: -21}
+    - name: tileSheet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -416,7 +496,7 @@ TextureImporter:
         - {x: 32, y: -30}
         - {x: 32, y: 31}
         - {x: -32, y: 31}
-    - name: tileSheet_18
+    - name: tileSheet_21
       rect:
         serializedVersion: 2
         x: 64
@@ -431,7 +511,7 @@ TextureImporter:
         - {x: 32, y: -30}
         - {x: 32, y: 31}
         - {x: -32, y: 31}
-    - name: tileSheet_19
+    - name: tileSheet_22
       rect:
         serializedVersion: 2
         x: 128
@@ -448,6 +528,36 @@ TextureImporter:
         - {x: 32, y: -29}
         - {x: 32, y: 30}
         - {x: 31, y: 31}
+    - name: tileSheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: tileSheet_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
     outline: []
   spritePackingTag: 
   userData: 
