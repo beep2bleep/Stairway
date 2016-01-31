@@ -14,6 +14,8 @@ public class Move : MonoBehaviour {
     public SpriteRenderer stand;
     public GameObject splat;
     public Slider health;
+
+    public AudioClip oneHitSound;
     // Use this for initialization
     void Start () {
 	
@@ -99,5 +101,11 @@ public class Move : MonoBehaviour {
             Instantiate(splat, transform.position, transform.rotation);
             health.value += 6;
         }
+    }
+
+    void ApplyDamage(float amount)
+    {
+        health.value -= amount;
+        GetComponent<AudioSource>().PlayOneShot(oneHitSound);//oww noise
     }
 }
