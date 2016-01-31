@@ -70,13 +70,15 @@ public class Shoot : MonoBehaviour
             {
                 lastSoundtime = 0;
                 //stairWay.pitch = Random.Range(.5f,2.5f);
-                stairWay.volume = 1;
+                if(stairWay.volume != 1)
+                    stairWay.volume = 1;
             }
             //Destroy(clone, .8f);
         }
         else
         {
-            stairWay.volume = 0;
+            if (!(Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)
+                stairWay.volume = 0;
         }
         
 #endif
