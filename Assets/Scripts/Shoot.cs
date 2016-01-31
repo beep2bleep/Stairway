@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Shoot : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Shoot : MonoBehaviour
     private Transform prefabHolder;
     public SpriteRenderer guitar;
     public SpriteRenderer spriteGun;
+    public Slider health;
+    public Slider rocking;
 
     // Use this for initialization
     void Start()
@@ -61,6 +64,7 @@ public class Shoot : MonoBehaviour
 			}
             stairWay.volume = 0;
             spriteGun.enabled = true;
+            health.value -= 1;
             Destroy(clone, .8f);
 		}
 		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
@@ -76,11 +80,17 @@ public class Shoot : MonoBehaviour
                 //stairWay.pitch = Random.Range(.5f,2.5f);
                 if (stairWay.volume != 1) { stairWay.volume = 1; }
                 guitar.enabled = true;
+                health.value -= 5;
+                rocking.value += 2;
             }
             //Destroy(clone, .8f);
         }
         else
         {
+            if(lastfiretime > timebetweenshots)
+            {
+                //rocking.value -= .01f;//SNeeds seperate counter
+            }
             if (!(Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)
             {
                 stairWay.volume = 0;

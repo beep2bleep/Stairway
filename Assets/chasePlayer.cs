@@ -68,7 +68,8 @@ public class chasePlayer : MonoBehaviour {
         if (health <= 0)
         {
             dead = true;
-            this.GetComponent<Collider>().enabled = false;
+            this.GetComponent<Collider>().isTrigger = true;
+            
             counter.addKill();
         }
     }

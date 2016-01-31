@@ -11,6 +11,7 @@ public class Move : MonoBehaviour {
     public SpriteRenderer walk1;
     public SpriteRenderer walk2;
     public SpriteRenderer stand;
+    public GameObject splat;
     // Use this for initialization
     void Start () {
 	
@@ -84,6 +85,16 @@ public class Move : MonoBehaviour {
                 stand.enabled = true;
                 timeSinceWalkSwitch = 0;
             }
+        }
+
+
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Destroy(other.GetComponentInParent<Transform>().gameObject);
+            Instantiate(splat, transform.position, new Quaternion());
         }
     }
 }
