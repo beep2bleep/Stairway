@@ -57,21 +57,26 @@ public class Shoot : MonoBehaviour
 				lastSoundtime = 0;
 				this.audioS.PlayOneShot(Audio);
 			}
-			Destroy(clone, .8f);
+            stairWay.volume = 0;
+            Destroy(clone, .8f);
 		}
 		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
 		{
             //Alt fire (music)
             lastfiretime = 0;
-            var clone = Instantiate(Bullet, gun.position, gun.rotation);
+            //var clone = Instantiate(Bullet, gun.position, gun.rotation);
 
             if (lastSoundtime > timebetweenshots)
             {
                 lastSoundtime = 0;
-                stairWay.pitch = Random.Range(0,100);
-                stairWay.Play();
+                //stairWay.pitch = Random.Range(.5f,2.5f);
+                stairWay.volume = 1;
             }
-            Destroy(clone, .8f);
+            //Destroy(clone, .8f);
+        }
+        else
+        {
+            stairWay.volume = 0;
         }
         
 #endif
