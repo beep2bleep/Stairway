@@ -19,6 +19,7 @@ public class Move : MonoBehaviour {
     public Image dmgSprite;
     public UnityEngine.UI.Text healthText;
 
+
     public AudioClip oneHitSound;
     // Use this for initialization
     void Start () {

@@ -24,6 +24,7 @@ public class Shoot : MonoBehaviour
     public Slider rocking;
     public UnityEngine.UI.Text healthText;
     public UnityEngine.UI.Text rockText;
+    
 
     // Use this for initialization
     void Start()
