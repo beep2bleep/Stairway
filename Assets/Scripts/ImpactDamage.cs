@@ -39,7 +39,7 @@ public class ImpactDamage : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Enemy" || col.gameObject.name == "Enemy(Clone)")
+        if (col.gameObject.name == "Enemy" || col.gameObject.name == "Enemy(Clone)"|| col.gameObject.name == "Enemy2" || col.gameObject.name == "Enemy2(Clone)"|| col.gameObject.name == "Enemy3" || col.gameObject.name == "Enemy3(Clone)")
         {
             //Destroy(col.gameObject);
             GetComponent<AudioSource>().PlayOneShot(oneHitSound);
