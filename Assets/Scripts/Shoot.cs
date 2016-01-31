@@ -22,6 +22,8 @@ public class Shoot : MonoBehaviour
     public SpriteRenderer spriteGun;
     public Slider health;
     public Slider rocking;
+    public UnityEngine.UI.Text healthText;
+    public UnityEngine.UI.Text rockText;
 
     // Use this for initialization
     void Start()
@@ -54,7 +56,9 @@ public class Shoot : MonoBehaviour
 #else
 		if (lastfiretime > timebetweenshots && (Input.GetButton("Fire1") || Input.GetAxisRaw("RightTrigger") != 0) == true) //&& _player.ViewOption == PlayerViewOptions.OverTheShoulder && (Input.touchCount == 0 || touchShot))
 		{
-			lastfiretime = 0;
+            healthText.text = "";
+            rockText.text = "";
+            lastfiretime = 0;
 			var clone  = (GameObject)Instantiate(Bullet, gun.position, gun.rotation);
             clone.transform.parent = prefabHolder;
             if (lastSoundtime > timebetweenshots)
@@ -65,10 +69,13 @@ public class Shoot : MonoBehaviour
             stairWay.volume = 0;
             spriteGun.enabled = true;
             health.value -= 1;
+            healthText.text = "-1";
             Destroy(clone, .8f);
 		}
 		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
 		{
+            healthText.text = "";
+            rockText.text = "";
             //Alt fire (music)
             spriteGun.enabled = false;
             lastfiretime = 0;
@@ -81,7 +88,9 @@ public class Shoot : MonoBehaviour
                 if (stairWay.volume != 1) { stairWay.volume = 1; }
                 guitar.enabled = true;
                 health.value -= 5;
+                healthText.text = "-5";
                 rocking.value += 2;
+                rockText.text = "+2";
             }
             //Destroy(clone, .8f);
         }
@@ -89,6 +98,8 @@ public class Shoot : MonoBehaviour
         {
             if(lastfiretime > timebetweenshots)
             {
+                healthText.text = "";
+                rockText.text = "";
                 //rocking.value -= .01f;//SNeeds seperate counter
             }
             if (!(Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)

@@ -14,6 +14,7 @@ public class chasePlayer : MonoBehaviour {
     bool dead = false;
     public float health = 20;
     public killCount counter;
+    public AudioClip oneHitSound;
 
     // Use this for initialization
     void Start () {
@@ -59,7 +60,6 @@ public class chasePlayer : MonoBehaviour {
             death.enabled = true;
         }
 
-
     }
 
     void ApplyDamage(float amount)
@@ -71,6 +71,20 @@ public class chasePlayer : MonoBehaviour {
             this.GetComponent<Collider>().isTrigger = true;
             
             counter.addKill();
+        }
+    }
+
+    //Test collision to hurt player
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.name == "Player"&& !dead)
+        {
+            //Destroy(col.gameObject);
+            //Do damange
+            col.gameObject.SendMessage("ApplyDamage", 8.0f);
+            dead = true;
+            Destroy(this.gameObject);
+
         }
     }
 }

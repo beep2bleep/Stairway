@@ -14,6 +14,12 @@ public class Move : MonoBehaviour {
     public SpriteRenderer stand;
     public GameObject splat;
     public Slider health;
+    private float walkTimes = 0;
+    bool playingheart;
+    public Image dmgSprite;
+    public UnityEngine.UI.Text healthText;
+
+    public AudioClip oneHitSound;
     // Use this for initialization
     void Start () {
 	
@@ -62,7 +68,8 @@ public class Move : MonoBehaviour {
         
         if(speed > speedToSwitchWalk  && timeSinceWalkSwitch > .25)
         {
-
+            healthText.text = "";
+            walkTimes++;
             stand.enabled = false;
             //toggle walk
             if (walk1.enabled)
@@ -82,6 +89,8 @@ public class Move : MonoBehaviour {
         {
             if (timeSinceWalkSwitch > .25)
             {
+                //healthText.text = "";
+                walkTimes++;
                 walk1.enabled = false;
                 walk2.enabled = false;
                 stand.enabled = true;
@@ -89,6 +98,28 @@ public class Move : MonoBehaviour {
             }
         }
 
+        if(walkTimes%5 == 0 && health.value < 100 && !playingheart)
+        {
+            playingheart = true;
+            var audio = GetComponent<AudioSource>();
+            audio.pitch = health.value / 105;
+            audio.PlayOneShot(oneHitSound);//oww noise
+            Color tmp = dmgSprite.color;
+            tmp.a = .25f * 1/(health.value / 105);
+            //tmp.a = 255 / (health.value / 105);
+            dmgSprite.color = tmp;
+        }
+        else
+        {
+            if (walkTimes % 5 != 0)
+            {
+                playingheart = false;
+                Color tmp = dmgSprite.color;
+                tmp.a = 0;
+                dmgSprite.color = tmp;
+            }
+
+        }
 
     }
     void OnTriggerEnter(Collider other)
@@ -98,6 +129,16 @@ public class Move : MonoBehaviour {
             Destroy(other.GetComponentInParent<Transform>().gameObject);
             Instantiate(splat, transform.position, transform.rotation);
             health.value += 6;
+            //healthText.text = "+6";
         }
     }
+
+    void ApplyDamage(float amount)
+    {
+        health.value -= amount;
+        GetComponent<AudioSource>().PlayOneShot(oneHitSound);//oww noise
+    }
+    
+
+
 }
