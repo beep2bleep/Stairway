@@ -20,7 +20,7 @@ public class chasePlayer : MonoBehaviour {
 
         player = GameObject.FindWithTag("Player").transform;
         agent.SetDestination(player.position);
-        //counter = GameObject.FindGameObjectWithTag("KillCount");
+        counter = GameObject.FindObjectOfType<killCount>();
 
         death.enabled = false;
     }
@@ -54,7 +54,6 @@ public class chasePlayer : MonoBehaviour {
         if (dead)
         {
             agent.enabled = false;
-            this.GetComponent<Collider>().enabled = false;
             walk1.enabled = false;
             walk2.enabled = false;
             death.enabled = true;
@@ -69,6 +68,7 @@ public class chasePlayer : MonoBehaviour {
         if (health <= 0)
         {
             dead = true;
+            this.GetComponent<Collider>().enabled = false;
             counter.addKill();
         }
     }
