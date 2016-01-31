@@ -17,6 +17,7 @@ public class Move : MonoBehaviour {
     private float walkTimes = 0;
     bool playingheart;
     public Image dmgSprite;
+    public UnityEngine.UI.Text healthText;
 
     public AudioClip oneHitSound;
     // Use this for initialization
@@ -67,6 +68,7 @@ public class Move : MonoBehaviour {
         
         if(speed > speedToSwitchWalk  && timeSinceWalkSwitch > .25)
         {
+            healthText.text = "";
             walkTimes++;
             stand.enabled = false;
             //toggle walk
@@ -87,6 +89,7 @@ public class Move : MonoBehaviour {
         {
             if (timeSinceWalkSwitch > .25)
             {
+                //healthText.text = "";
                 walkTimes++;
                 walk1.enabled = false;
                 walk2.enabled = false;
@@ -126,6 +129,7 @@ public class Move : MonoBehaviour {
             Destroy(other.GetComponentInParent<Transform>().gameObject);
             Instantiate(splat, transform.position, transform.rotation);
             health.value += 6;
+            //healthText.text = "+6";
         }
     }
 
@@ -134,4 +138,7 @@ public class Move : MonoBehaviour {
         health.value -= amount;
         GetComponent<AudioSource>().PlayOneShot(oneHitSound);//oww noise
     }
+    
+
+
 }
