@@ -20,39 +20,43 @@ public class Move : MonoBehaviour {
 	void Update () {
         timeSinceWalkSwitch += Time.deltaTime;
         float speed = Vector3.Magnitude(myBody.velocity);
-        if (Input.GetKey(KeyCode.A))
+        if(!(Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0))
         {
-            if (myBody.velocity.x > maxSpeed * -1)
-                
+            if (Input.GetKey(KeyCode.A))
             {
-                myBody.AddForce(Vector3.left * speedAddition);
+                if (myBody.velocity.x > maxSpeed * -1)
+
+                {
+                    myBody.AddForce(Vector3.left * speedAddition);
+                }
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                if (myBody.velocity.x < maxSpeed)
+                {
+                    myBody.AddForce(Vector3.right * speedAddition);
+                }
+                //myBody.velocity = Vector3.right * moveSpeed;
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                if (myBody.velocity.z > maxSpeed * -1)
+
+                {
+                    myBody.AddForce(Vector3.back * speedAddition);
+                }
+                //myBody.velocity = Vector3.back * moveSpeed;
+            }
+            if (Input.GetKey(KeyCode.W))
+            {
+                if (myBody.velocity.z < maxSpeed)
+                {
+                    myBody.AddForce(Vector3.forward * speedAddition);
+                }
+                //myBody.velocity = Vector3.forward * moveSpeed;
             }
         }
-        if (Input.GetKey(KeyCode.D))
-        {
-            if (myBody.velocity.x < maxSpeed)
-            {
-                myBody.AddForce(Vector3.right * speedAddition);
-            }
-            //myBody.velocity = Vector3.right * moveSpeed;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            if (myBody.velocity.z > maxSpeed * -1)
-                
-            {
-                myBody.AddForce(Vector3.back * speedAddition);
-            }
-            //myBody.velocity = Vector3.back * moveSpeed;
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            if (myBody.velocity.z < maxSpeed)
-            {
-                myBody.AddForce(Vector3.forward * speedAddition);
-            }
-            //myBody.velocity = Vector3.forward * moveSpeed;
-        }
+        
         if(speed > speedToSwitchWalk  && timeSinceWalkSwitch > .25)
         {
 

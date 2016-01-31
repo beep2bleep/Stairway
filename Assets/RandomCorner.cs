@@ -15,7 +15,7 @@ public class RandomCorner : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        nextNav = Random.Range(0, 3);
+        nextNav = Random.Range(0, 4);
 
     }
 	
@@ -47,7 +47,7 @@ public class RandomCorner : MonoBehaviour {
         else
         {
             skipNavCount++;
-            nextNav = Random.Range(0, 3);
+            nextNav = Random.Range(0, 4);
         }
     }
 }
