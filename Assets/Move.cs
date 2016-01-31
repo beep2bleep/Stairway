@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Move : MonoBehaviour {
 
@@ -12,6 +13,7 @@ public class Move : MonoBehaviour {
     public SpriteRenderer walk2;
     public SpriteRenderer stand;
     public GameObject splat;
+    public Slider health;
     // Use this for initialization
     void Start () {
 	
@@ -95,6 +97,7 @@ public class Move : MonoBehaviour {
         {
             Destroy(other.GetComponentInParent<Transform>().gameObject);
             Instantiate(splat, transform.position, transform.rotation);
+            health.value += 6;
         }
     }
 }
