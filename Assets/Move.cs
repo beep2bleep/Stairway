@@ -17,6 +17,7 @@ public class Move : MonoBehaviour {
     private float walkTimes = 0;
     bool playingheart;
     public Image dmgSprite;
+    public Transform gunTransform;
     public UnityEngine.UI.Text healthText;
 
 
@@ -63,8 +64,42 @@ public class Move : MonoBehaviour {
                 {
                     myBody.AddForce(Vector3.forward * speedAddition);
                 }
-                //myBody.velocity = Vector3.forward * moveSpeed;
             }
+            //Kendra movement controls did not work
+            //if (Input.GetKey(KeyCode.UpArrow))
+            //{
+            //    if (myBody.velocity.z < maxSpeed)
+            //    {
+            //        // get the point "distance" units ahead the weapon:
+            //        Vector3 aimPos = gunTransform.position + gunTransform.forward * 1;
+            //        // convert it to screen coordinates:
+            //        Vector3 chPos = Camera.main.WorldToScreenPoint(aimPos);
+            //        myBody.AddForce((Vector3.Normalize(chPos) * speedAddition));
+            //    }
+            //}
+            //if (Input.GetKey(KeyCode.DownArrow))
+            //{
+            //    if (myBody.velocity.z < maxSpeed)
+            //    {
+            //        // get the point "distance" units ahead the weapon:
+            //        Vector3 aimPos = gunTransform.position + gunTransform.forward * 1;
+            //        // convert it to screen coordinates:
+            //        Vector3 chPos = Camera.main.WorldToScreenPoint(aimPos);
+            //        myBody.AddForce(Vector3.Normalize(chPos) * -1 * speedAddition);
+            //    }
+            //    //myBody.velocity = Vector3.forward * moveSpeed;
+            //}
+
+            //if (Input.GetKey(KeyCode.LeftArrow))
+            //{
+            //    //turn left
+            //    gunTransform.Rotate(0, 0, 1);// (new Quaternion(myBody.rotation.x, myBody.rotation.y + 1, myBody.rotation.z, myBody.rotation.w));
+            //}
+            //if (Input.GetKey(KeyCode.RightArrow))
+            //{
+            //    //turn right
+            //    gunTransform.Rotate(0, 0, -1);////gunTransform.MoveRotation(new Quaternion(myBody.rotation.x, myBody.rotation.y - 1, myBody.rotation.z, myBody.rotation.w));
+            //}
         }
         
         if(speed > speedToSwitchWalk  && timeSinceWalkSwitch > .25)

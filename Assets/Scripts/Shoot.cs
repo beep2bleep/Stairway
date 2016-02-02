@@ -63,7 +63,7 @@ public class Shoot : MonoBehaviour
 			
 		}
 #else
-		if (lastfiretime > timebetweenshots && (Input.GetButton("Fire1") || Input.GetAxisRaw("RightTrigger") != 0) == true) //&& _player.ViewOption == PlayerViewOptions.OverTheShoulder && (Input.touchCount == 0 || touchShot))
+		if (lastfiretime > timebetweenshots && (Input.GetButton("Fire1") || Input.GetAxisRaw("RightTrigger") != 0 || Input.GetKey(KeyCode.Space)) == true) //&& _player.ViewOption == PlayerViewOptions.OverTheShoulder && (Input.touchCount == 0 || touchShot))
 		{
             healthText.text = "";
             rockText.text = "";
@@ -99,7 +99,7 @@ public class Shoot : MonoBehaviour
                 stand.sprite = spider1;
             }
         }
-		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0) == true)//(false)//Test for touchscreen input
+		else if(lastfiretime > timebetweenshots && (Input.GetButton("Fire2") || Input.GetAxisRaw("LeftTrigger") != 0 || Input.GetKey(KeyCode.Z)) == true)//(false)//Test for touchscreen input
 		{
             healthText.text = "";
             rockText.text = "";
